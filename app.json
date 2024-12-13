@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Whatsupnonumber",
+    "slug": "whatsupnonumber",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons8-whatsapp-1024.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icons8-whatsapp-1024.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jadIssa.whatsupnonumbercom"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons8-whatsapp-1024.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.jadIssa.whatsupnonumbercom"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      "react-native-video"
+    ]
+  }
+}
